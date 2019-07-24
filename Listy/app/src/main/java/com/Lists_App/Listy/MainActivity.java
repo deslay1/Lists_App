@@ -1,4 +1,4 @@
-package com.example.Listy;
+package com.Lists_App.Listy;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

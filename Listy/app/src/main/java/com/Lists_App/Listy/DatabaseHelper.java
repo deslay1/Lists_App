@@ -1,4 +1,4 @@
-package com.example.Listy;
+package com.Lists_App.Listy;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.HashMap;
 
-import static com.example.Listy.MainActivity.tabId;
+import static com.Lists_App.Listy.MainActivity.tabId;
 
 
 public class DatabaseHelper extends SQLiteOpenHelper {

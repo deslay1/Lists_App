@@ -1,4 +1,4 @@
-package com.example.Listy;
+package com.Lists_App.Listy;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
