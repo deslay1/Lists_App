@@ -1,16 +1,14 @@
-package com.example.one;
+package com.example.Listy;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.provider.ContactsContract;
-import android.util.Log;
 
 import java.util.HashMap;
 
-import static com.example.one.MainActivity.tabId;
+import static com.example.Listy.MainActivity.tabId;
 
 
 public class DatabaseHelper extends SQLiteOpenHelper {
