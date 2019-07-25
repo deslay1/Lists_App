@@ -20,7 +20,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private TextView mTextMessage;
     private ArrayList<String> items;
     private ArrayList<String> items2;
     private ArrayList<String> items3;
@@ -31,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
     static int tabId = 1;
 
     DatabaseHelper DB;
-    SQLiteDatabase db;
     Button btnAdd;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -42,19 +40,16 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_career:
                     tabId = 1;
-                    //mTextMessage.setText(R.string.title_home);
                     lvItems.setAdapter(itemsAdapter);
 
                     return true;
                 case R.id.navigation_personal:
                     tabId = 2;
-                    // mTextMessage.setText(R.string.title_dashboard);
                     lvItems.setAdapter(itemsAdapter2);
 
                     return true;
                 case R.id.navigation_training:
                     tabId = 3;
-                    // mTextMessage.setText(R.string.title_notifications);
                     lvItems.setAdapter(itemsAdapter3);
 
                     return true;
@@ -102,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
         lvItems.setAdapter(itemsAdapter);
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
-        mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         btnAdd = (Button) findViewById(R.id.btnAddItem);
         AddDataFromItem();
