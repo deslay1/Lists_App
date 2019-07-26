@@ -5,6 +5,6 @@ Items are stored/removed/updated in an Android SQLite database where each list c
 Includes basic functionality such as:
 - Navigation bar with 3 tabs
 - Adding items through an EditText field and button onClick()
-- Floating context menu appears with an edit and delete option when long pressing on an item.
-  - Choosing delete will trigger an alert dialog with an EditText field and two buttons to cancel/apply.
+- Floating context menu appears with an edit and delete options when long pressing on an item.
+  - Choosing edit will trigger an alert dialog with an EditText field and two buttons to cancel/apply.
 - Bullet points: items loaded from database will always be bulleted
