@@ -3,12 +3,17 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:background="@drawable/item_shape"
+        android:paddingLeft="20dip"
+        android:paddingStart="20dip"
+        android:paddingEnd="20dip"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
         android:textSize="19sp"
-        app:fontFamily="@font/mclaren"
-        android:paddingTop="10dip" android:paddingBottom="10dip" android:paddingLeft="20dip"
-        android:background="@drawable/item_shape"/>
+        app:fontFamily="@font/mclaren"/>
 </LinearLayout>

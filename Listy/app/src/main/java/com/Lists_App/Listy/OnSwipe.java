@@ -5,6 +5,12 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
+/*
+ * Incomplete class that detects swiping gestures and
+ * performs various actions accordingly
+ * Note: class not in use!!!
+ */
+
 public class OnSwipe implements View.OnTouchListener {
     private final GestureDetector gestureDetector;
 
